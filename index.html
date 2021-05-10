@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cafe shop</title>
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link rel="icon" href="favicon.ico">
+  </head>
+  <body>
+    <header>
+      <div id="top-wrap">
+        <h1 id="logo">Cafe Shop</h1>
+        <nav>
+          <ul>
+            <li><a href="">MENU</a></li>
+            <li><a href="">SHOP</a></li>
+            <li><a href="">RECRUIT</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- スライドショー ここから -->
+      <section id="slide-show">
+        <div class="slide">
+          <ul>
+            <li><img src="img/top01.jpg"></li>
+            <li><img src="img/top02.jpg"></li>
+            <li><img src="img/top03.jpg"></li>
+            <li><img src="img/top04.jpg"></li>
+            <li><img src="img/top05.jpg"></li>
+            <li><img src="img/top06.jpg"></li>
+          </ul>
+        </div>
+
+          <div class="slide-nav">
+            <a href="#" class="prev sample"></a>
+            <a href="#" class="next"></a>
+        </div>
+        <div class="slide-indicator"></div>
+      </section>
+      <!-- スライドショー ここまで -->
+
+      <!-- タブ ここから -->
+      <div class="container">
+        <ul class="menu">
+          <li><a href="#" class="active" data-id="info">新着情報</a></li> 
+          <li><a href="#" data-id="open">営業時間</a></li>
+          <li><a href="#" data-id="access">アクセス</a></li>
+        </ul>
+  
+        <section class="content active" id="info">
+          <ul>
+            <li>
+              <p>
+                2021-05-10 Mon<br>
+                <span class="bold">○○○○○○</span><br>
+              <a href="">詳しくはこちら</a>
+              </p>
+            </li>
+            <li>
+              <p>
+                2021-05-12 Wed<br>
+                ○○○○○○<br>
+                <a href="">詳しくはこちら</a>
+              </p>
+            </li>
+          </ul>
+        </section>
+        
+        <section class="content" id="open">
+          <ul>
+            <li class="bold">OPEN／CLOSE</li>
+            <li>平日：○○時～○○時（ラストオーダー○○時）</li>
+            <li>土日祝：○○時～○○時（ラストオーダー○○時）</li>
+            <li>定休日：○曜日（祝日の場合は○曜日）</li>
+          </ul>
+        </section>
+  
+        <section class="content" id="access">
+          <p>
+            <span class="bold">電車でお越しの場合</span><br>
+            ○○駅から約○○分<br>
+            ○○駅から約○○分
+          </p>
+        </section>
+      </div>
+      <!-- タブ ここまで -->
+
+      <section class="banners">
+        <div class="banner con1">
+          <div class="banner-content bg-zoom-content">
+            <h1>MENU</h1>
+            <h2>メニュー</h2>
+            <p>ドリンク・フード</p>
+            <a class="btn" href="">詳細</a>
+          </div>
+        </div>
+        
+        <div class="banner con2">
+          <div class="banner-content bg-zoom-content">
+            <h1>SHOP</h1>
+            <h2>店舗</h2>
+            <p>自分へのご褒美に、<br>
+               大切な人へのギフトにどうぞ</p>
+            <a class="btn" href="">店舗一覧</a>
+          </div>
+        </div>
+
+        <div class="banner con3">
+          <div class="banner-content bg-zoom-content">
+            <h1>RECRUIT</h1>
+            <h2>求人情報</h2>
+            <p>一緒に働きませんか？</p>
+            <a class="btn" href="">詳細</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>(c)Cafe Shop.com</p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/slide.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
