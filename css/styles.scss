@@ -289,8 +289,8 @@ footer {
 }
 
 
-// 360以下用レイアウト
-@media (max-width: 420px) {      
+// 480以下用レイアウト
+@media (max-width: 480px) {      
   .slide {
     height: 200px;
   }
